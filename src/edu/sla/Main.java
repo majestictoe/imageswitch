@@ -10,9 +10,9 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.control.MenuButton;
 import javafx.scene.control.MenuItem;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
-import java.io.File;
+//import javafx.scene.media.Media;
+//import javafx.scene.media.MediaPlayer;
+//import java.io.File;
 
 public class Main extends Application {
 
@@ -77,9 +77,9 @@ public class Main extends Application {
         primaryStage.setTitle("hgehvj");
         //shows stage
         primaryStage.show();
-        Media edgy = new Media(new File("Evanescense-Bring Me To Life lyrics.mp3").toURI().toString());
-        MediaPlayer mediaPlayer = new MediaPlayer(edgy);
-        mediaPlayer.play();
+//        Media edgy = new Media(new File("Evanescense-Bring Me To Life lyrics.mp3").toURI().toString());
+//        MediaPlayer mediaPlayer = new MediaPlayer(edgy);
+//        mediaPlayer.play();
     }
 
     public static void main(String[] args) {
