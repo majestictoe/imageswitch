@@ -10,9 +10,6 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.control.MenuButton;
 import javafx.scene.control.MenuItem;
-//import javafx.scene.media.Media;
-//import javafx.scene.media.MediaPlayer;
-//import java.io.File;
 
 public class Main extends Application {
 
@@ -42,8 +39,8 @@ public class Main extends Application {
         MenuItem sad2 = new MenuItem("cry");
         //creates menu button containing the menu items
         MenuButton menuButton = new MenuButton("Options", null, knife, scream, sad);
-        MenuButton menuButton2 = new MenuButton("Options", null, sad1, scream1, knife1);
-        MenuButton menuButton3 = new MenuButton("Options", null, scream2, knife2, sad2);
+        MenuButton menuButton2 = new MenuButton("Options", null, knife1, scream1, sad1);
+        MenuButton menuButton3 = new MenuButton("Options", null, knife2, scream2, sad2);
         //creates groups for each scene and adds components to groups
         Group s1 = new Group();
         s1.getChildren().add(pictureButton);
@@ -77,9 +74,6 @@ public class Main extends Application {
         primaryStage.setTitle("hgehvj");
         //shows stage
         primaryStage.show();
-//        Media edgy = new Media(new File("Evanescense-Bring Me To Life lyrics.mp3").toURI().toString());
-//        MediaPlayer mediaPlayer = new MediaPlayer(edgy);
-//        mediaPlayer.play();
     }
 
     public static void main(String[] args) {
